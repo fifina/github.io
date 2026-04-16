@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="entete">
+        <img src="Logos_UCAO_ISG.png" alt="" class="logo" width="200">
+    </header>
+    <nav class="menu">
+        <ul>
+            <li> <a href="index.html">Accueil</a></li>
+            <li><a href="profil.html">Profil</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="conteneur">
+    <main class="main">
+        <h2>Bienvenu dans mon site</h2>
+        <section class="section">
+            <h3>Presentation</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum fugiat non totam inventore voluptatem. Tempore ducimus dolore nobis voluptatem omnis, nisi consequuntur laborum molestias veritatis distinctio maiores quisquam non qui.</p>
+        </section>
+    </main>
+    <aside class="infoComplet">Info complementaires</aside>
+    </div>
+    <footer class="pied">
+        <p>
+            &copy; Fatou NGOM <br>
+            email : ngom.fatou@esp.sn <br>
+            Adress : Fann <br>
+            Tel : 33 800 49 30 <br>
+        </p>
+    </footer>
+    <script>
+        /*les types de fonctions en programmation sont :
+        - les fonctions prédéfinies : ce sont des fonctions 
+            qui sont déjà définies dans le langage de programmation 
+            et qui peuvent être utilisées directement par les développeurs. 
+            Par exemple, en JavaScript, des fonctions prédéfinies 
+            comme alert(), prompt(), console.log() s
+            ont disponibles pour afficher des messages, d
+            emander des entrées à l'utilisateur ou afficher 
+            des informations dans la console.
+        - les fonctions personnalisées : ce sont des fonctions que les développeurs 
+        créent eux-mêmes pour accomplir des tâches spécifiques dans leur code. */
+
+        /* - fonctions sans paramètres san valeur de retour
+        Exemple : une fonction qui affiche un message 
+        de bienvenue à l'utilisateur 
+         - fonctions avec paramètres et valeur de retour
+         Exemple : prompt("quel est votre nom?")
+         
+         -fontion avec paramètres et sans valeur de retour
+         Exemple : console.log('Bonjour ' + nom) 
+         
+         -fonction avec paramètres et sans valeur de retour
+         */
+
+       
+        
+        /*alert est une fonction javascript 
+        qui affiche une boite de dialogue 
+        avec un message et un bouton OK*/
+
+        alert("Bienvenue dans mon site!")
+        /*prompt est une fonction javascript 
+        qui affiche une boite de dialogue 
+        avec un message et un champ de saisie pour l'utilisateur 
+        et deux boutons OK et Annuler*/   
+         
+        var nomVisiteur = prompt("Quel est votre nom?") // recupérer la valeur saisie par l'utilisateur dans la variable nomVisiteur
+        alert("Bonjour " + nomVisiteur) // afficher un message de bienvenue avec le nom de l'utilisateur
+        
+        var reponsevisiteur= confirm("Voulez-vous continuer votre visite?") // afficher une boite de dialogue avec un message et deux boutons OK et Annuler et retourner true si l'utilisateur clique sur OK et false s'il clique sur Annuler
+        alert("Votre réponse est : " + reponsevisiteur) // afficher la réponse de l'utilisateur
+    </script>
+</body>
+</html>
